@@ -2286,3 +2286,13 @@ button,
 video {
   vertical-align:middle
 }
+
+.brmed {
+    display: block;
+    margin-bottom: 0.5em;
+}
+  
+.brlarge {
+    display: block;
+    margin-bottom: 1em;
+}

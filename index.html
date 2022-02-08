@@ -359,13 +359,20 @@
 								<h3>Tutorial</h3>
 							</header>
 							<h4 id="ilya"> 
-							Title: TBA
+							<strong>Differentially Private Deep Learning, Theory, Attacks, and PyTorch Implementation</strong>
 							<!-- <a href="#" target="_blank"><img src="images/pdf-icon.png" width="20" style="vertical-align:middle" alt="slides"></a> -->
 							<!-- <a href="#" target="_blank"><img src="images/play.png" width="20" style="vertical-align:middle" alt="video recording"></a> -->
 							</h4>
-							by <a href="https://ai.facebook.com/people/ilya-mironov/">Ilya Mironov</a> (Facebook)
+							by <a href="https://ai.facebook.com/people/ilya-mironov/">Ilya Mironov</a> (Responsible AI, Meta),
+							<a href="https://alexandresablayrolles.github.io/">Alexandre Sablayrolles</a> (Responsible AI, Meta), 
+							and <a href="#">Igor Shilov</a> (Responsible AI, Meta)
 								<p>
-							<!-- <strong>Abstract</strong>: <br> TBA -->
+							<strong>Abstract</strong>: <br> 
+							The tutorial is designed as a gentle introduction to the topic of differentially private deep learning. In the first part of the tutorial we cover relevant topics in the theory of differential privacy, such as composition theorems and privacy-preserving mechanisms. In the second part, we discuss Opacus, a PyTorch-based library for performant and user-friendly differentially private training, and Privacy Linter, a library for identifying privacy violations.
+					        <span class="brmed"></span> 
+							We begin by motivating privacy-preserving deep learning with several examples where industry-grade models demonstrably leak training data. We briefly review the notion of differential privacy (DP) as a remediation strategy, and learn how SGD-based optimization algorithms can be adapted to DP. We take a close look at several privacy accountants (upper bounds on privacy loss) and the complementary lower bounds.
+					        <span class="brmed"></span> 
+							In the second part of the tutorial we present our Pytorch framework for DP-SGD, Opacus. Opacus is designed to be a simple and extensible framework that can easily be plugged into an existing machine learning pipeline. Opacus’ features include implementations of several privacy accountants, vectorized computations of per-sample gradients, and support for distributed computations. We conclude by presenting the Privacy Linter, a PyTorch framework for evaluating practical privacy attacks on machine learning models.The Linter implements a number of recently proposed attacks on trained models and support for more advanced strategies.
 							</p>
 							
 
@@ -391,11 +398,11 @@
 							<p>
 							<strong>Abstract</strong>: <br> 
 							Both privacy experts and policymakers are at an impasse, trying to answer,
-							<br>
+							<span class="brmed"></span> 
 							“At what point does the sacrifice to our personal information outweigh the public good?” 
-							<br>
+							<span class="brmed"></span> 
 							If public policymakers had access to society’s personal and confidential data, they could make more evidence-based, data-informed decisions that could accelerate economic recovery and improve COVID-19 vaccine distribution. Although privacy researchers strive to balance the need for data privacy and accuracy, access to personal data comes at a steep privacy cost for contributors, especially underrepresented groups. This situation results in many federal statistical agencies in the United States to never produce public data or restrict the data to a select few external researchers. Further, most public data users and policymakers are not familiar with data privacy and confidentiality methods and must make informed policy decisions on how to best balance the need for confidential data access and privacy protection. 
- 							<br>
+ 							<span class="brmed"></span> 
  							This talk will cover several projects conducted at the intersection of expanding access to confidential data and public policy, the lessons learned when working with data users and non-privacy researchers, and the inequity of data privacy and confidentiality methodologies for underrepresented groups. 
 							</p>
 
@@ -415,7 +422,7 @@
 							specialized science and engineering teams to help them. How can we
 							bridge this gap, and drive the widespread adoption of differential
 							privacy?
-							<br>
+							<span class="brmed"></span> 
 							This talk will outline a bottom-up approach to bring differential
 							privacy to a much more widespread audience. From initial outreach
 							efforts all the way to production deployments, I will describe what a
