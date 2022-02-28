@@ -224,7 +224,7 @@
 										<tr><td>13:45</td>	<td>Flash Poster Presentations</td> 												<td style="text-align: center; white-space: nowrap;"> 	</td>	</tr>
 										<tr><td>14:00</td>  <td colspan="2">Poster Session (on <a href="https://aaai-2022.virtualchair.net/index.html">VirtualChair</a> Room Blue 2)</td></tr>
 
-										<tr><td>15:00</td>	<td><a href="#adam">Invited Talk:</a> "Memorization in Machine Learning" by <em>Adam Smith</em></td> <td style="text-align: center;"><a href="https://aaai-2022.virtualchair.net/venue.html" target="_blank" style="border-bottom: none"><img src="images/live-stream.png" width="20"></a></td>		</tr>										
+										<tr><td>15:00</td>	<td><a href="#adam">Invited Talk:</a> "When is Memorization Necessary for Machine Learning?" by <em>Adam Smith</em></td> <td style="text-align: center;"><a href="https://aaai-2022.virtualchair.net/venue.html" target="_blank" style="border-bottom: none"><img src="images/live-stream.png" width="20"></a></td>		</tr>										
 										
 										<tr height="8px"><td colspan="3">Session chair: <em>Xi He</em></td></tr>
 										<tr><td>15:45</td>	<td><a href="#sp5">Spotlight Talk</a>: Calibration with Privacy in Peer Review: A Theoretical Study</td>						<td style="text-align: center;"><a href="https://web.ecs.syr.edu/~ffiorett/cfp/PPAI22/27.mp4" alt="Video" style="border-bottom: none"><img src="images/play.png" width="20" style="vertical-align:middle"></a></td></tr>
@@ -452,13 +452,20 @@
 								<h3>Invited Talks</h3>
 							</header>
 							<h4 id="adam"> 
-							Title: Memorization in Machine Learning
+							<strong>When is Memorization Necessary for Machine Learning?</strong>
 							<!-- <a href="#" target="_blank"><img src="images/pdf-icon.png" width="20" style="vertical-align:middle" alt="slides"></a> -->
 							<!-- <a href="#" target="_blank"><img src="images/play.png" width="20" style="vertical-align:middle" alt="video recording"></a> -->
-						</h4>
+							</h4>
 							by <a href="https://cs-people.bu.edu/ads22/index.html">Adam Smith</a> (Boston University)
-								<p>
-							<!-- <strong>Abstract</strong>: <br> TBA -->
+							<p>
+							<strong>Abstract</strong>: <br>
+							Modern machine learning models are complex, and frequently encode surprising amounts of information about individual inputs. In extreme cases, complex models appear to memorize entire input examples, including seemingly irrelevant information (exact addresses from text, for example). In this talk, we aim to understand whether this sort of memorization is necessary for accurate learning, and what the implications are for privacy.
+							<span class="brmed"></span> 
+							We describe two results that explore different aspects of this phenomenon. In the first, published at STOC 2021, we give natural prediction problems in which every sufficiently accurate training algorithm must encode, in the prediction model, essentially all the information about a large subset of its training examples. This remains true even when the examples are high-dimensional and have entropy much higher than the sample size, and even when most of that information is ultimately irrelevant to the task at hand. Further, our results do not depend on the training algorithm or the class of models used for learning.
+							<span class="brmed"></span> 
+							Our second, unpublished result shows how memorization must occur during the training process, even when the final model is succinct and depends only on the underlying distribution. This leads to new lower bounds on the memory size of one-pass streaming algorithms for fitting natural models. 
+							<span class="brmed"></span> 
+							Joint work with (subsets of) Gavin Brown, Mark Bun, Vitaly Feldman, and Kunal Talwar.
 							</p>
 
 							<h4 id="claire">
